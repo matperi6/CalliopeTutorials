@@ -1,48 +1,45 @@
-# Flashing Heart
+# Beating heart
 
-## Code a Flashing Heart @unplugged
+## @showdialog
 
-Code the lights on the micro:bit into a flashing heart animation! 💖
+In this project, you will make a beating heart animation on your micro:bit.
 
-## {Step 1 @fullscreen}
+## 
+You don't need ``||basic: on start||`` so let's drop it back into the toolbox (the middle section) to tidy it away.
 
-Click on the ``||basic:Basic||`` category in the Toolbox. 
-Drag the ``||basic:show leds||`` block into the ``||basic:forever||`` block. 
-Then in the ``||basic:show leds||`` block, click on the squares to draw a heart design.
+## 
+Now find the ``||basic: show icon||`` block.  It's in the Basic category in the toolbox.  
 
-## {Step 2}
+Put this inside the ``||basic: forever||`` block and then select the heart icon.
 
-Drag another ``||basic:show leds||`` block underneath the first.
+## 
+Get another ``||basic: show icon||`` block (from the Basic category).  
 
-```blocks
-basic.forever(function() {
-    basic.showLeds(`
-        . # . # .
-        # # # # #
-        # # # # #
-        . # # # .
-        . . # . .`);
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .`);
-})
-```
+Put this inside the ``||basic: forever||`` block and then select the small heart icon.
 
-## {Step 3}
+## 
+Let’s test your animation in the micro:bit on-screen simulator.
 
-Look at the @boardname@ on the screen. Do you see a flashing heart animation? ⭐ Great job! ⭐ 
+The micro:bit loops between a large and small heart to make the heart look like it is beating.  
 
-## {Step 4}
+## 
+You can control the speed of your animation (fast or slow) by adding a pause block. 
 
-If you have a @boardname@ device, connect it to your computer and click the ``|Download|`` button. Follow the instructions to transfer your code onto the @boardname@ and watch the hearts flash! 
+Find the ``||basic: pause||`` block (in the Basic category).  Add it after the first ``||basic: show icon||`` block. 
 
-## {Step 5}
+## 
+Add another ``||basic: pause||`` block (in the Basic category) and put it after the second ``||basic: show icon||`` block. 
 
-Go further - try adding more ``||basic:show leds||`` blocks to create a longer animation! Learn more about how the @boardname@ lights work by watching [this video](https://youtu.be/qqBmvHD5bCw).
+Pauses are in milliseconds.  Change the numbers in the ``||basic: pause||``  blocks to change your animation speed. 
 
-```template
-basic.forever(function() {})
-```
+## 
+Let’s test your code again in the micro:bit on-screen simulator to see your changes.
+
+You should see your new beating heart animation.  
+
+## 
+Now download your code onto your micro:bit.  Press the download button and follow the instructions.
+
+You should see your beating heart animation on your micro:bit. 
+
+## @showdialog
