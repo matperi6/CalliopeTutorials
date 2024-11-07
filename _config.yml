@@ -1,0 +1,6 @@
+makecode:
+  target: calliope
+  platform: calliope
+  home_url: https://makecode.calliope.cc/
+theme: jekyll-theme-slate
+include: assets
